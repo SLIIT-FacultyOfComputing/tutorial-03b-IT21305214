@@ -41,28 +41,33 @@ int main() {
 }
 
 // Implement the functions here
-class Box
-{
-public:
-    void readData()
-    {
-        cout << "length: ";
-        cin >> length;
-        cout << "width: ";
-        cin >> width;
-        cout << "height: ";
-        cin >> height;
-    }
-    float Volume()
-    {
-        return length * width * height;
-    }
-    void dispData()
-    {
-        cout << "Volume is: "<<Volume()<< endl;
-    }
-private:
-    float length;
-    float width;
-    float height;
+struct Box{
+    int volume (struct box1){
+    int box1Height, box1Width, box1Length;
 };
+    int volume (struct box2){
+    int box1Height, box1Width, box1Length;
+};
+struct box1;
+    cout << "Enter box1 Height : ";
+    cin >> Height of box1Height;
+    cout << "Enter box1 Width : ";
+    cin >> Width of box1Width;
+    cout << "Enter box1 Length : ";
+    cin >> Length of box1Length;
+struct box2;
+    cout << "Enter box2 Height : ";
+    cin >> Height of box2Height;
+    cout << "Enter box1 Width : ";
+    cin >> Width of box1Width;
+    cout << "Enter box1 Length : ";
+    cin >> Length of box1Length;
+    
+    totalVolume = volume(box1Height,box1Width ,box1Length ) + volume( box2Height,box2Width,box2Length);
+    
+    cout << "Volume of Box is " << totalVolume << endl;
+}
+    
+    
+    
+    
