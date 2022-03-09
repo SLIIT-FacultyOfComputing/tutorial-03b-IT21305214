@@ -31,3 +31,28 @@ int main() {
 }
 
 // Implement the Volume() function here
+class Box
+{
+public:
+    void readData()
+    {
+        cout << "length: ";
+        cin >> length;
+        cout << "width: ";
+        cin >> width;
+        cout << "height: ";
+        cin >> height;
+    }
+    float Volume()
+    {
+        return length * width * height;
+    }
+    void dispData()
+    {
+        cout << "Volume is: "<<Volume()<< endl;
+    }
+private:
+    float length;
+    float width;
+    float height;
+};
