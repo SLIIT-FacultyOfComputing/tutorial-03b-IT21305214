@@ -24,5 +24,6 @@ void input(int &length, int &width){
     cin >> &length;
    cout << "Enter Width : ";
     cin >> &width;
+
 }
    
