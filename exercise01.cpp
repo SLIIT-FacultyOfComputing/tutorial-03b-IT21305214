@@ -16,4 +16,4 @@ int main() {
          <<setw(10)<<setioflags(ios::fixed)<<setprecision(2)<<marks[r]<<endl;
  }
  return 0;
-}
+  }
